@@ -3,8 +3,8 @@ cd /opt
 wget http://s1.cloud.shuaninfo.com/sqldev/sqldev-free-2.2.60-202211090526.tar.gz
 tar -zxvf sqldev-free-2.2.60-202211090526.tar.gz
 cd sqldev
-sh install.sh
+/bin/bash install.sh
 chmod +x ./sqldev
-sh start.sh
+/bin/bash start.sh
 echo "程序已部署完成，请检查/opt/sqldev/run.log"
 
